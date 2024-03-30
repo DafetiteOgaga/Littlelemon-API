@@ -1,0 +1,22 @@
+# activate virtual environment
+1. while in Littlelemon_final_project,
+run: source final_project_venv/bin/activate
+
+2. cd Littlelemon_final_project/
+
+# install dependencies
+3. run: pip install -r requirements.txt
+
+# install 3rd party library for authentication and authorization
+4. pip install -U djoser
+
+# make and run migrations
+5. python manage.py makemigrations
+6. python manage.py migrate
+
+# optional
+# createsuperuser (delete the database i.e db.sqlite3, if you must do this)
+x. python manage.py createsuperuser
+
+# run the server
+7. python manage.py runserver
