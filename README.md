@@ -3,4 +3,4 @@
 
 
 
-###### We Rise by Lifting Others.
+###### *We Rise by Lifting Others.*
